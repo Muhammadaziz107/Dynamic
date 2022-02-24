@@ -3,12 +3,15 @@ import "./settings.css";
 import Instagram from "../../Assets/Images/87390.png";
 import Telegram from "../../Assets/Images/telegram.png";
 import Loader from "../../Assets/Images/loader.svg";
+import Logo from "../../Assets/Images/logo.png";
 
 function Settings() {
   return (
     <div className="settings">
       <div className="container">
-        <h1 className="settings__heading">Bizning saytimiz sozlanmoqda</h1>
+        <img className="logo" src={Logo} alt="loader img" width={200} />
+
+        <h1 className="settings__heading">Sayt sozlanmoqda</h1>
         <img className="loader" src={Loader} alt="loader img" />
 
         <div className="links">
@@ -16,7 +19,7 @@ function Settings() {
           <ul className="links__list">
             <li className="links__list__item">
               <a
-                href="http://www.instagram.com"
+                href="https://instagram.com/dynamic_uz?utm_medium=copy_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="links__list__item__link"
@@ -36,7 +39,7 @@ function Settings() {
             <li className="links__list__item">
               <a
                 className="links__list__item__link"
-                href="http://www.telegram.org"
+                href="https://t.me/dynamic_dc"
                 target="_blank"
                 rel="noopener noreferrer"
               >

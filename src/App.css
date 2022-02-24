@@ -1,5 +1,6 @@
 body {
-  background: radial-gradient(circle at 100% 50%, #7979ff, #303066);
+  /* background: radial-gradient(circle at 100% 50%, #7979ff, #303066) */
+  background-color: #002744;
   font-family: "Raleway", sans-serif;
 }
 
